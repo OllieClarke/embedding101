@@ -17,6 +17,7 @@ h1 {
 #first_row_of_buttons {
   border: 5px dashed red;
   background-color: cyan;
+  color: black;
 }
 
 input[type="button"] {
