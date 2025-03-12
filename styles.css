@@ -9,9 +9,9 @@ h1 {
   font-size: 3em;
   text-shadow: 3px 3px magenta;
 }
-
-#tableauViz {
-  align-items: center;
+#dashboard {
+  display: flex;
+  justify-content: center;
 }
 
 #first_row_of_buttons {
@@ -47,4 +47,12 @@ input[type="button"] {
   width: 200px;
   height: auto;
   z-index: 9999;
+}
+
+#imageSource {
+  position: fixed;
+  top: 145px;
+  right: 10px;
+  width: 200px;
+  background-color: white;
 }

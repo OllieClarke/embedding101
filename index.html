@@ -8,11 +8,29 @@
   </head>
   <body>
     <h1>🦖 Embedding Back to School 🦐</h1>
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Holotype.jpg/2560px-Tyrannosaurus_Rex_Holotype.jpg"
-      alt="T Rex"
-      id="t-rex"
-    />
+    <div id="imageSource">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Holotype.jpg/2560px-Tyrannosaurus_Rex_Holotype.jpg"
+        alt="T Rex"
+        id="t-rex"
+      />
+      By
+      <a
+        href="//commons.wikimedia.org/w/index.php?title=User:ScottRobertAnselmo&amp;action=edit&amp;redlink=1"
+        class="new"
+        title="User:ScottRobertAnselmo (page does not exist)"
+        >ScottRobertAnselmo</a
+      >
+      - <span class="int-own-work" lang="en">Own work</span>,
+      <a
+        href="https://creativecommons.org/licenses/by-sa/3.0"
+        title="Creative Commons Attribution-Share Alike 3.0"
+        >CC BY-SA 3.0</a
+      >,
+      <a href="https://commons.wikimedia.org/w/index.php?curid=19248777"
+        >Link</a
+      >
+    </div>
     <fieldset id="first_row_of_buttons">
       <legend>Filter the View</legend>
       <input
@@ -24,7 +42,7 @@
       <input type="button" value="Clear Filter" id="clear_filter" />
       <input type="button" value="Undo" id="undo" />
     </fieldset>
-    <div>
+    <div id="dashboard">
       <tableau-viz
         id="tableauViz"
         src="https://public.tableau.com/views/Superstore_embedded_800x800/Overview"
