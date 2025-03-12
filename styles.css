@@ -1,0 +1,49 @@
+body {
+  background-color: yellow;
+  color: lime;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 3px 3px magenta;
+}
+
+#tableauViz {
+  align-items: center;
+}
+
+#first_row_of_buttons {
+  border: 5px dashed red;
+  background-color: cyan;
+}
+
+input[type="button"] {
+  background-color: blue;
+  color: white;
+  font-size: 1.2em;
+  border: 3px solid pink;
+  padding: 10px;
+  animation: flash 0.5s infinite alternate;
+}
+
+@keyframes flash {
+  from {
+    background-color: blue;
+    color: white;
+  }
+  to {
+    background-color: red;
+    color: yellow;
+  }
+}
+
+#t-rex {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+}
